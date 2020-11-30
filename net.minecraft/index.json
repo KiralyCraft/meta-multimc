@@ -3,6 +3,33 @@
     "name": "Minecraft",
     "uid": "net.minecraft",
     "versions": [
+		{
+            "recommended": true,
+            "releaseTime": "2020-10-29T15:49:37+00:00",
+            "requires": [
+                {
+                    "equals": "3.2.2",
+                    "suggests": "3.2.2",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "92462773db6decec96873c6b2e506085c7f775f538ab0c4a4ec26ab6eeafbe83",
+            "type": "release",
+            "version": "1.16.4"
+        },
+		{
+            "releaseTime": "2020-09-10T13:42:37+00:00",
+            "requires": [
+                {
+                    "equals": "3.2.2",
+                    "suggests": "3.2.2",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "f4081f034522b6403c302148e999a1957862d72be1dcd554d907668bfb727d1b",
+            "type": "release",
+            "version": "1.16.3"
+        },
         {
             "recommended": true,
             "releaseTime": "2020-06-24T10:31:40+00:00",
